@@ -1,3 +1,4 @@
+// go:generate mockgen -source issuer.go -destination mock_issuer.go -package issuer
 package limiter
 
 import (
