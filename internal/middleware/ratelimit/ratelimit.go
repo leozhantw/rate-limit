@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	max = 10
+	max = 60
 	ttl = 60
 )
 
