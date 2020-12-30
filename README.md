@@ -21,7 +21,7 @@ go run cmd/server/server.go
 git clone https://github.com/leozhantw/rate-limit.git
 cd rate-limit
 docker build -t rate-limit .
-docker run -p 3000:3000 rate-limit:latest
+docker run -p 8080:8080 rate-limit:latest
 ```
 
 ## Demo

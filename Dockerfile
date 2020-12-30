@@ -5,4 +5,6 @@ RUN go build -mod=vendor -o bin/server ./cmd/server
 
 FROM alpine:3.12
 COPY --from=build /src/bin/server .
+ENV PORT 8080
+EXPOSE 8080
 ENTRYPOINT ./server
